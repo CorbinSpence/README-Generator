@@ -1,0 +1,23 @@
+{
+  "name": "module-9-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/CorbinSpence/README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CorbinSpence/README-Generator/issues"
+  },
+  "homepage": "https://github.com/CorbinSpence/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
