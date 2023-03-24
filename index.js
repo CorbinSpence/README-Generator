@@ -47,9 +47,7 @@ await inquirer.prompt([
         name: "email",
         message: "What is your email.",
     },
-]).then(displayData(response))
-}
-var displayData = (response) => {
+]).then((response)=>{
     console.log("starting data list")
     console.log(response.title)
     console.log(response.description)
@@ -60,5 +58,43 @@ var displayData = (response) => {
     console.log(response.license)
     console.log(response.github)
     console.log(response.email)
+    let content = 
+`# ${response.title}
+
+## Description
+
+${response.description}
+
+## Installation
+
+${response.installation}
+
+## Usage
+
+${response.usage}
+
+## Contributors
+
+${response.contributing}
+
+## Testing
+
+${response.testing}
+
+## License
+
+${response.license}
+
+## Github Profile
+
+${response.github}
+
+## Contact
+
+${response.email}
+`;
+    fs.writeFile('README.md', content, (err) => err? console.log('failure') : console.log('success'))
+})
 }
+
 runPrompt()
