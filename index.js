@@ -5,7 +5,7 @@ var licenses = ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3.0", "None"]
 var badges = {}
 
 badges["MIT"] = 'https://img.shields.io/badge/license-MIT-yellowgreen'
-badges["APACHE 2.0"] = 'https://img.shields.io/badge/license-Apache-blue'
+badges["APACHE 2.0"] = 'https://img.shields.io/badge/license-Apache%202.0-blue'
 badges["GPL 3.0"] = 'https://img.shields.io/badge/license-GPL%203.0-blue'
 badges["BSD 3.0"] = 'https://img.shields.io/badge/license-BSD%203.0-yellowgreen'
 badges["None"] = 'https://img.shields.io/badge/license-None-lightgrey'
